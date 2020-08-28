@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27E403B124F8AC800022778C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E403B024F8AC800022778C /* AppDelegate.swift */; };
+		27E403BA24F8AC820022778C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E403B924F8AC820022778C /* Assets.xcassets */; };
+		27E403BD24F8AC820022778C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E403BB24F8AC820022778C /* LaunchScreen.storyboard */; };
+		27E403C624F8ACFB0022778C /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E403C424F8ACFB0022778C /* DashboardViewController.swift */; };
+		27E403C724F8ACFB0022778C /* DashboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27E403C524F8ACFB0022778C /* DashboardViewController.xib */; };
+		27E403CA24F8AD110022778C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E403C824F8AD110022778C /* DetailViewController.swift */; };
+		27E403CB24F8AD110022778C /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27E403C924F8AD110022778C /* DetailViewController.xib */; };
+		27E403CD24F8AD1F0022778C /* DashboardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E403CC24F8AD1F0022778C /* DashboardData.swift */; };
+		27E403D024F8AE3D0022778C /* DashboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E403CE24F8AE3D0022778C /* DashboardTableViewCell.swift */; };
+		27E403D124F8AE3D0022778C /* DashboardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27E403CF24F8AE3D0022778C /* DashboardTableViewCell.xib */; };
+		27E403D624F8B1310022778C /* NetworkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E403D524F8B1310022778C /* NetworkServices.swift */; };
+		6AD16CCBA497E4D162BED90D /* Pods_Sandi_axaTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50591AFBB2DE2FEB5B8F0AC3 /* Pods_Sandi_axaTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27E403AD24F8AC800022778C /* Sandi-axaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sandi-axaTest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E403B024F8AC800022778C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27E403B924F8AC820022778C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27E403BC24F8AC820022778C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27E403BE24F8AC820022778C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27E403C424F8ACFB0022778C /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		27E403C524F8ACFB0022778C /* DashboardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashboardViewController.xib; sourceTree = "<group>"; };
+		27E403C824F8AD110022778C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		27E403C924F8AD110022778C /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		27E403CC24F8AD1F0022778C /* DashboardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardData.swift; sourceTree = "<group>"; };
+		27E403CE24F8AE3D0022778C /* DashboardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTableViewCell.swift; sourceTree = "<group>"; };
+		27E403CF24F8AE3D0022778C /* DashboardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashboardTableViewCell.xib; sourceTree = "<group>"; };
+		27E403D524F8B1310022778C /* NetworkServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServices.swift; sourceTree = "<group>"; };
+		46879366BD3D165A65DE3A06 /* Pods-Sandi-axaTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sandi-axaTest.release.xcconfig"; path = "Target Support Files/Pods-Sandi-axaTest/Pods-Sandi-axaTest.release.xcconfig"; sourceTree = "<group>"; };
+		50591AFBB2DE2FEB5B8F0AC3 /* Pods_Sandi_axaTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sandi_axaTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		921007289F78E6524CD04205 /* Pods-Sandi-axaTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sandi-axaTest.debug.xcconfig"; path = "Target Support Files/Pods-Sandi-axaTest/Pods-Sandi-axaTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27E403AA24F8AC800022778C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD16CCBA497E4D162BED90D /* Pods_Sandi_axaTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08F2CC631E7C1DEBFDB469FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				921007289F78E6524CD04205 /* Pods-Sandi-axaTest.debug.xcconfig */,
+				46879366BD3D165A65DE3A06 /* Pods-Sandi-axaTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1B729FCEB426400A15B0863C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50591AFBB2DE2FEB5B8F0AC3 /* Pods_Sandi_axaTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27E403A424F8AC800022778C = {
+			isa = PBXGroup;
+			children = (
+				27E403AF24F8AC800022778C /* Sandi-axaTest */,
+				27E403AE24F8AC800022778C /* Products */,
+				08F2CC631E7C1DEBFDB469FA /* Pods */,
+				1B729FCEB426400A15B0863C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		27E403AE24F8AC800022778C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27E403AD24F8AC800022778C /* Sandi-axaTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27E403AF24F8AC800022778C /* Sandi-axaTest */ = {
+			isa = PBXGroup;
+			children = (
+				27E403B024F8AC800022778C /* AppDelegate.swift */,
+				27E403B924F8AC820022778C /* Assets.xcassets */,
+				27E403BB24F8AC820022778C /* LaunchScreen.storyboard */,
+				27E403D424F8B0120022778C /* View Controller */,
+				27E403D324F8B0060022778C /* Model */,
+				27E403D224F8AFFC0022778C /* Cell */,
+				27E403BE24F8AC820022778C /* Info.plist */,
+			);
+			path = "Sandi-axaTest";
+			sourceTree = "<group>";
+		};
+		27E403D224F8AFFC0022778C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				27E403CE24F8AE3D0022778C /* DashboardTableViewCell.swift */,
+				27E403CF24F8AE3D0022778C /* DashboardTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		27E403D324F8B0060022778C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				27E403CC24F8AD1F0022778C /* DashboardData.swift */,
+				27E403D524F8B1310022778C /* NetworkServices.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		27E403D424F8B0120022778C /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				27E403C424F8ACFB0022778C /* DashboardViewController.swift */,
+				27E403C524F8ACFB0022778C /* DashboardViewController.xib */,
+				27E403C824F8AD110022778C /* DetailViewController.swift */,
+				27E403C924F8AD110022778C /* DetailViewController.xib */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27E403AC24F8AC800022778C /* Sandi-axaTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27E403C124F8AC820022778C /* Build configuration list for PBXNativeTarget "Sandi-axaTest" */;
+			buildPhases = (
+				B69CC14C2C680DE8AB63A1A3 /* [CP] Check Pods Manifest.lock */,
+				27E403A924F8AC800022778C /* Sources */,
+				27E403AA24F8AC800022778C /* Frameworks */,
+				27E403AB24F8AC800022778C /* Resources */,
+				20619C30B059D90D3C6E3587 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sandi-axaTest";
+			productName = "Sandi-axaTest";
+			productReference = 27E403AD24F8AC800022778C /* Sandi-axaTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27E403A524F8AC800022778C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = sample;
+				TargetAttributes = {
+					27E403AC24F8AC800022778C = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 27E403A824F8AC800022778C /* Build configuration list for PBXProject "Sandi-axaTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27E403A424F8AC800022778C;
+			productRefGroup = 27E403AE24F8AC800022778C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27E403AC24F8AC800022778C /* Sandi-axaTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27E403AB24F8AC800022778C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E403D124F8AE3D0022778C /* DashboardTableViewCell.xib in Resources */,
+				27E403BD24F8AC820022778C /* LaunchScreen.storyboard in Resources */,
+				27E403BA24F8AC820022778C /* Assets.xcassets in Resources */,
+				27E403C724F8ACFB0022778C /* DashboardViewController.xib in Resources */,
+				27E403CB24F8AD110022778C /* DetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20619C30B059D90D3C6E3587 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sandi-axaTest/Pods-Sandi-axaTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sandi-axaTest/Pods-Sandi-axaTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sandi-axaTest/Pods-Sandi-axaTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B69CC14C2C680DE8AB63A1A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sandi-axaTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27E403A924F8AC800022778C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E403D624F8B1310022778C /* NetworkServices.swift in Sources */,
+				27E403CD24F8AD1F0022778C /* DashboardData.swift in Sources */,
+				27E403CA24F8AD110022778C /* DetailViewController.swift in Sources */,
+				27E403B124F8AC800022778C /* AppDelegate.swift in Sources */,
+				27E403C624F8ACFB0022778C /* DashboardViewController.swift in Sources */,
+				27E403D024F8AE3D0022778C /* DashboardTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		27E403BB24F8AC820022778C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27E403BC24F8AC820022778C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27E403BF24F8AC820022778C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27E403C024F8AC820022778C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27E403C224F8AC820022778C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 921007289F78E6524CD04205 /* Pods-Sandi-axaTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sandi-axaTest/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "id.sample.Sandi-axaTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27E403C324F8AC820022778C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46879366BD3D165A65DE3A06 /* Pods-Sandi-axaTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sandi-axaTest/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "id.sample.Sandi-axaTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27E403A824F8AC800022778C /* Build configuration list for PBXProject "Sandi-axaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E403BF24F8AC820022778C /* Debug */,
+				27E403C024F8AC820022778C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27E403C124F8AC820022778C /* Build configuration list for PBXNativeTarget "Sandi-axaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E403C224F8AC820022778C /* Debug */,
+				27E403C324F8AC820022778C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27E403A524F8AC800022778C /* Project object */;
+}
